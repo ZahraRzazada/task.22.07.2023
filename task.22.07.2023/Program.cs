@@ -24,21 +24,6 @@
 //    Console.WriteLine("Please enter valid number");
 //    return;
 //}
-//int AdditionNum = 3;
-Console.WriteLine("Enter number:");
-string Number = Console.ReadLine();
-string[] arr = Number.Split(' ');
-string AdditionNumber = "3";
-for (int i = 0; i < arr.Length; i++)
-{
-    arr[0] = AdditionNumber;
-    arr[i] = arr[i] + 1;
-
-    Console.WriteLine(arr[i]);
-}
-
-
-
-
+//int AdditionNumber = 3;
 #endregion
 
